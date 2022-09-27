@@ -1,0 +1,29 @@
+.header{
+    background-color: black;
+    
+       
+}
+
+.header-img{
+    width: 100px;
+   
+    
+
+}
+.header-menu{
+    width: 30px;
+    margin-left: 90%;
+    
+}
+
+.header-nav_ul{
+    display: inline;
+    color: white;
+    
+
+}
+
+.hidden{
+    display: none;
+    /*Está oculto pero lo tenemos en bloque, tener en cuenta*/
+}
