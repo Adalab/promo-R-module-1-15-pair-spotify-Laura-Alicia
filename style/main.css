@@ -1,29 +1,46 @@
+:root {
+    --black-background: black;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*1.1*/
+
+.header { border: solid 3px red; background: blue}
+/* .first-section { border: solid 3px red; background: blue} */
+.second-section { border: solid 3px red; background: blue}
+.footer { border: solid 3px red; background: blue}
+
+/*Header*/
 .header{
-    background-color: black;
-    
-       
+    background-color: var(--black-background);
 }
 
 .header-img{
     width: 100px;
-   
-    
-
 }
 .header-menu{
     width: 30px;
-    margin-left: 90%;
-    
+    margin-left: 90%;  
 }
-
 .header-nav_ul{
     display: inline;
     color: white;
-    
-
 }
-
 .hidden{
     display: none;
     /*Está oculto pero lo tenemos en bloque, tener en cuenta*/
+}
+
+/*First  section*/
+.first-section {
+    background-color: #58A6FF;
+
+}
+.first-section-img {
+    margin-left: 60%;
+}
+.h1 {
+
 }
