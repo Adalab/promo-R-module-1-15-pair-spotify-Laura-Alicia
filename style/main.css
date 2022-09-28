@@ -15,32 +15,74 @@ html {
 /*Header*/
 .header{
     background-color: var(--black-background);
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-img{
     width: 100px;
+    margin-left: 10px;
 }
 .header-menu{
     width: 30px;
-    margin-left: 90%;  
+    order: 1; /*Nos lleva a la derecha*/
+    margin-right: 10px;
+    
 }
+/*Está oculto pero lo tenemos en bloque, tener en cuenta*/
 .header-nav_ul{
     display: inline;
     color: white;
+   
 }
 .hidden{
     display: none;
-    /*Está oculto pero lo tenemos en bloque, tener en cuenta*/
 }
+/*End of hidden*/
 
 /*First  section*/
 .first-section {
     background-color: #58A6FF;
-
+    height: 50vh;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 30px;
 }
+/*Está oculto*/
 .first-section-img {
-    margin-left: 60%;
+    height: 100%;  
 }
-.h1 {
+/*End of hidden*/
+.first-section_h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.first-section_subtitle{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.first-section_button{ /*TODO:[valdenebro] buscar en el video de ayer*/
+    color: white;
+    background-color: #238636;
+    padding: 10px;
+}
+.first-section_note{
+    color:white;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
 
+/*End of first section/
+
+/*Second section*/
+.second-section{
+    background-color: white;
+}
+.second-section_h2{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
 }
